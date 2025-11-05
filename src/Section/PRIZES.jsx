@@ -67,7 +67,7 @@ const PRIZES = () => {
 
                   <div className="relative z-10 flex flex-col items-center px-6 py-8">
                     <div className="relative w-32 h-32 mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#D4AF37]/30 to-transparent group-hover:translate-x-full transition-transform duration-1500 ease-in-out"></div>
+                      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#D4AF37]/30 to-transparent transition-transform duration-1500 ease-in-out"></div>
                       <img
                         src={prize.icon}
                         alt={`${prize.place} Place`}
