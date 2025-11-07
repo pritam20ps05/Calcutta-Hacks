@@ -105,7 +105,7 @@ const Hero = () => (
           <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-8">
             <div className="flex items-center gap-2 font-serif text-base md:text-lg">
               <Calendar className="text-[#6B4423] flex-shrink-0" size={20} />
-              <span className="font-medium">13-14 Dec 2025</span>
+              <span className="font-medium">27-28 Dec 2025</span>
             </div>
             <div className="hidden md:block w-px h-6 bg-[#3E2C1D]"></div>
             <div className="flex items-center gap-2 font-serif text-base md:text-lg">
@@ -115,7 +115,7 @@ const Hero = () => (
             <div className="hidden md:block w-px h-6 bg-[#3E2C1D]"></div>
             <div className="flex items-center gap-2 font-serif text-base md:text-lgs">
               <Users className="text-[#6B4423] flex-shrink-0" size={20} />
-              <span className="font-medium">160+ Hackers</span>
+              <span className="font-medium">160 Hackers</span>
             </div>
           </div>
 
