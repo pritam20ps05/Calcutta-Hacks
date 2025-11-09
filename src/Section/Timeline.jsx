@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
+import { FaCalendarAlt } from 'react-icons/fa';
+
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import TimelineEvent from '../components/TimelineEvent';
@@ -54,16 +56,8 @@ const Timeline = () => {
 
         {/* Date Display */}
         <div className="flex justify-center items-center mb-8">
-          <div className="flex items-center space-x-3">
-            {/* Calendar Icon */}
-            <div className="w-8 h-8 border-2 border-[#3E2C1D] rounded-t-md flex flex-col items-center justify-center relative">
-              <div className="w-full h-2.5 border-b-2 border-[#3E2C1D] rounded-t-md"></div>
-              <div className="grid grid-cols-3 gap-0.5 p-1 flex-1 w-full">
-                {[...Array(9)].map((_, i) => (
-                  <div key={i} className="w-1.5 h-1.5 bg-[#3E2C1D] rounded-sm"></div>
-                ))}
-              </div>
-            </div>
+          <div className="flex items-center space-x-4">
+            <FaCalendarAlt className="text-2xl text-[#3E2C1D]" />
             <div className="font-serif text-lg font-bold text-[#3E2C1D] uppercase tracking-wide">
               {activeTab === 0 ? 'December 27, 2025' : 'December 28, 2025'}
             </div>
