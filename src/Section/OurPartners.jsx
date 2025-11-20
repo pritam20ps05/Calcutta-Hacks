@@ -11,8 +11,33 @@ import axicov from '../../src/assets/Icon/axicov.webp';
 import drop from '../../src/assets/Icon/drop.webp';
 import keploy from '../../src/assets/Icon/keploy.webp';
 import beeceptor from '../../src/assets/Icon/beeceptor.webp';
+import magicui from '../../src/assets/Icon/magicui.webp';
+import nomoex from '../../src/assets/Icon/nomoex.webp';
+import decloudx from '../../src/assets/Icon/decloudx.webp';
 
 const categories = {
+  diamondspn: {
+    name: 'Diamond Sponsors',
+    partners: [
+      {
+        name: 'Nomoex',
+        logo: nomoex,
+        link: 'https://nomoex.com/',
+        tagline: 'The Future of Crypto Trading',
+      }
+    ],
+  },
+  platinumspn: {
+    name: 'Platinum Sponsors',
+    partners: [
+      {
+        name: 'DeCloudX',
+        logo: decloudx,
+        link: 'https://decloudx.com/',
+        tagline: 'The Decentralized Cloud Platform Powering Web3',
+      }
+    ],
+  },
   silverspn: {
     name: 'Silver Sponsors',
     partners: [
@@ -87,8 +112,8 @@ const categories = {
       },
     ],
   },
-  aiutilityptn: {
-    name: 'AI Utility Partner',
+  utilityptn: {
+    name: 'Utility Partners',
     partners: [
       {
         name: 'Beeceptor',
@@ -96,6 +121,12 @@ const categories = {
         link: 'https://beeceptor.com/?utm_source=hackathon&utm_campaign=tiu_calcuttahacks',
         tagline: 'Mock APIs made easy with AI.',
       },
+      {
+        name: 'Magic UI',
+        logo: magicui,
+        link: 'https://pro.magicui.design/',
+        tagline: 'UI library for Design Engineers.',
+      }
     ],
   },
   domainptn: {
@@ -238,6 +269,12 @@ const OurPartners = () => {
           </div>
         </VintageCard>
 
+        { /* Diamond Sponsor */}
+        <SponsorCard category="diamondspn" />
+
+        {/* Platinum Sponsor */}
+        <SponsorCard category="platinumspn" />
+
         {/* Silver Sponsor */}
         <SponsorCard category="silverspn" />
 
@@ -251,7 +288,7 @@ const OurPartners = () => {
         <SponsorCard category="educationptn" />
 
         {/* AI Utility Partner */}
-        <SponsorCard category="aiutilityptn" />
+        <SponsorCard category="utilityptn" />
 
         {/* Domain Partner */}
         <SponsorCard category="domainptn" />
