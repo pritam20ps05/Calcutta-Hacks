@@ -30,7 +30,8 @@
     "svgo": "^4.0.0",
     "tailwindcss": "^4.1.14",
     "three": "^0.180.0",
-    "vite-plugin-image-optimizer": "^2.0.3"
+    "vite-plugin-image-optimizer": "^2.0.3",
+    "vite-plugin-webp-generator": "^0.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

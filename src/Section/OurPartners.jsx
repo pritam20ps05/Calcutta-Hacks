@@ -1,16 +1,16 @@
 import React from 'react';
 import { Map, MapPin, Award } from 'lucide-react';
-import bolt from '../../src/assets/Icon/bolt.png';
-import ETH from '../../src/assets/Icon/ethIndia.png';
-import codecrafter from '../../src/assets/Icon/codecrafter.png';
-import xyz from '../../src/assets/Icon/.xyz.png';
-import interviewbuddy from '../../src/assets/Icon/interviewbuddy.png';
-import loveable from '../../src/assets/Icon/loveable.png';
-import elevenlabs from '../../src/assets/Icon/elevenlabs.png';
-import axicov from '../../src/assets/Icon/axicov.png';
-import drop from '../../src/assets/Icon/drop.png';
-import keploy from '../../src/assets/Icon/keploy.png';
-import beeceptor from '../../src/assets/Icon/beeceptor.png';
+import bolt from '../../src/assets/Icon/bolt.webp';
+import ETH from '../../src/assets/Icon/ethIndia.webp';
+import codecrafter from '../../src/assets/Icon/codecrafter.webp';
+import xyz from '../../src/assets/Icon/.xyz.webp';
+import interviewbuddy from '../../src/assets/Icon/interviewbuddy.webp';
+import loveable from '../../src/assets/Icon/loveable.webp';
+import elevenlabs from '../../src/assets/Icon/elevenlabs.webp';
+import axicov from '../../src/assets/Icon/axicov.webp';
+import drop from '../../src/assets/Icon/drop.webp';
+import keploy from '../../src/assets/Icon/keploy.webp';
+import beeceptor from '../../src/assets/Icon/beeceptor.webp';
 
 const categories = {
   silverspn: {

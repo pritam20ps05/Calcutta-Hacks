@@ -2,9 +2,9 @@ import React from 'react';
 import { Award } from 'lucide-react';
 import { VintageCard } from './Tracks';
 import SpotlightCard from '../components/ui/SpotlightCard';
-import first from '../../src/assets/Icon/firstPlace.png';
-import second from '../../src/assets/Icon/secondPlace.png';
-import third from '../../src/assets/Icon/thirdPlace.png';
+import first from '../../src/assets/Icon/firstPlace.webp';
+import second from '../../src/assets/Icon/secondPlace.webp';
+import third from '../../src/assets/Icon/thirdPlace.webp';
 
 const PRIZES = () => {
   const prizes = [

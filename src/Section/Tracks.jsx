@@ -1,13 +1,13 @@
 import React from 'react';
 import { Code, Landmark, Target, Sparkles, Bus, Award } from 'lucide-react';
 import GlareHover from '../components/ui/GlareHover';
-import web3 from '../../src/assets/Icon/web3.png';
-import heritage from '../../src/assets/Icon/heritage.png';
-import ai from '../../src/assets/Icon/AI.png';
-import cyber from '../../src/assets/Icon/cyberSecurity.png';
-import smartCity from '../../src/assets/Icon/smartCity.png';
+import web3 from '../../src/assets/Icon/web3.webp';
+import heritage from '../../src/assets/Icon/heritage.webp';
+import ai from '../../src/assets/Icon/AI.webp';
+import cyber from '../../src/assets/Icon/cyberSecurity.webp';
+import smartCity from '../../src/assets/Icon/smartCity.webp';
 
-import openInovation from '../../src/assets/Icon/openInovation.png';
+import openInovation from '../../src/assets/Icon/openInovation.webp';
 // Simple VintageCard component with vintage styling
 export const VintageCard = ({ children, className }) => {
   return (
