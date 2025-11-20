@@ -269,7 +269,7 @@ const OurPartners = () => {
           </div>
         </VintageCard>
 
-        { /* Diamond Sponsor */}
+        {/* Diamond Sponsor */}
         <SponsorCard category="diamondspn" />
 
         {/* Platinum Sponsor */}
