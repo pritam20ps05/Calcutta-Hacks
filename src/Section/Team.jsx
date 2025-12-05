@@ -17,8 +17,8 @@ import VivekYadav from '../../src/assets/Team/VivekYadav.webp';
 import Subhasish from '../../src/assets/Team/Subhasish.webp';
 import Piush from '../../src/assets/Team/Piyush.webp';
 import Ritabrata from '../../src/assets/Team/Rito.webp';
-import Udity from '../../src/assets/Team/Udity.png';
-import PiyushGoenka from '../../src/assets/Team/piyushGoenka.jpg';
+import Udity from '../../src/assets/Team/udity.webp';
+import PiyushGoenka from '../../src/assets/Team/piyushgoenka.webp';
 import TiltedCard from '../components/ui/TiltedCard';
 import { Linkedin, Twitter, Github } from 'lucide-react';
 
